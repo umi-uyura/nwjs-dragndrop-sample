@@ -1,0 +1,27 @@
+{
+  "name": "nwjs-dragndrop-with-react",
+  "version": "0.0.1",
+  "description": "NW.js drag & drop sample with React",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw",
+    "build": "jsx ./src ./build --extension jsx",
+    "watch": "jsx --watch ./src ./build --extension jsx",
+    "package": "nwbuild -p osx64 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nw.js",
+    "node-webkit",
+    "react"
+  ],
+  "author": "Umi Uyura",
+  "license": "MIT",
+  "dependencies": {
+    "nw": "^0.12.1",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "react-tools": "^0.13.2"
+  }
+}

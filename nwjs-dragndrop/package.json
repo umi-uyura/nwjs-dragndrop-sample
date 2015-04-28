@@ -1,0 +1,18 @@
+{
+  "name": "nwjs-dragndrop",
+  "version": "0.0.1",
+  "description": "NW.js drag & drop sample",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nw.js"
+  ],
+  "author": "Umi Uyura",
+  "license": "MIT",
+  "dependencies": {
+    "nw": "^0.12.1"
+  }
+}
