@@ -7,6 +7,11 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+     // prevent default behavior from changing page on dropped file
+     window.ondragover = function(e) { e.preventDefault(); return false };
+     window.ondrop = function(e) { e.preventDefault(); return false };
+    </script>
     <script src="build/index.js"></script>
   </body>
 </html>
